@@ -1,0 +1,21 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "Seiji Villafranca",
+      "title": "Angular 6 Basics",
+      "category": "Angular",
+      "body": "Lorem ipsum dolor sit amet, cibo errem argumentum est ad, cu elit nostro malorum mea. Tota omnis pri id. Duis doming pro id, munere intellegam sed cu. Has omnis homero eu. Tale habemus constituam an nec. Eu offendit mandamus sed, meis liberavisse id vis, te paulo pertinax vel. In cibo liber democritum cum, justo phaedrum ad mea, cu sensibus recteque est. Wisi consul officiis duo no, eu sit tollit definitionem, nam scaevola singulis definiebas eu. Te eos admodum scribentur definitiones, epicuri perfecto quo id. Mei ad lobortis mediocrem. Te sea simul indoctum, nihil everti efficiendi vis in, id rebum albucius insolens sea.",
+      "comments": [
+          {
+              "name": "John Doe",
+              "comment": "This is epic!!!"
+          },
+          {
+              "name": "Jane Walsh",
+              "comment": "Absolutely amazing."
+          }
+      ]
+    }
+  ]
+}
