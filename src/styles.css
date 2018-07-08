@@ -1,2 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";  
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";  
+
+
+mat-toolbar{
+    z-index: 1000;
+    overflow: hidden;
+    width:100%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+    background: #080323!important;
+    -webkit-box-shadow: -4px 20px 25px -15px rgba(0,0,0,0.54);
+    -moz-box-shadow: -4px 20px 25px -15px rgba(0,0,0,0.54);
+     box-shadow: -4px 20px 25px -15px rgba(0,0,0,0.54);
+}
+
+mat-form-field{
+    color:black !important;
+}
+
+mat-card{
+    border: solid;
+    border-color:#e6e8ed !important;
+    border-width: 0.5px;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+.nav-button{
+    color:white !important;
+    margin-left: 15px !important;
+}
+.post-button{
+    color:#6b6c6d !important;
+    margin-left: 15px !important;
+}
+
+.post-card {
+    max-width: 350px;
+  }
+  
+.post-header-image {
+    background-image: url('http://ishowmy.support/img/user-icon-360x360.jpg');
+    background-size: cover;
+}
+  
+.form {
+    margin:auto;
+    min-width: 150px;
+    max-width: 700px;
+    width: 100%;
+  }
+  
+.full-width {
+    width: 100%;
+}
+  
+.form-buttons{
+    text-align: right;
+}
+
+.form-button{
+    margin-left: 10px !important;
+}

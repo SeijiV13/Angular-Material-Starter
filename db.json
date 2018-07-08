@@ -2,20 +2,63 @@
   "posts": [
     {
       "id": 1,
+      "draft": false,
       "author": "Seiji Villafranca",
       "title": "Angular 6 Basics",
       "category": "Angular",
-      "body": "Lorem ipsum dolor sit amet, cibo errem argumentum est ad, cu elit nostro malorum mea. Tota omnis pri id. Duis doming pro id, munere intellegam sed cu. Has omnis homero eu. Tale habemus constituam an nec. Eu offendit mandamus sed, meis liberavisse id vis, te paulo pertinax vel. In cibo liber democritum cum, justo phaedrum ad mea, cu sensibus recteque est. Wisi consul officiis duo no, eu sit tollit definitionem, nam scaevola singulis definiebas eu. Te eos admodum scribentur definitiones, epicuri perfecto quo id. Mei ad lobortis mediocrem. Te sea simul indoctum, nihil everti efficiendi vis in, id rebum albucius insolens sea.",
+      "body": "Lorem ipsum dolor sit amet, cibo errem argumentum est ad, cu elit n",
+    },
+    {
+      "id": 2,
+      "draft": false,
+      "author": "Seiji Villafranca",
+      "title": "Angular 6 Redux",
+      "category": "Angular",
+      "body": "Lorem ipsum dolor sit amet, cibo errem argumentum est ad, cu elit nostro malorum mea.",
       "comments": [
-          {
-              "name": "John Doe",
-              "comment": "This is epic!!!"
-          },
-          {
-              "name": "Jane Walsh",
-              "comment": "Absolutely amazing."
-          }
+        {
+          "name": "Prog rammer",
+          "comment": "Hey another post!!!"
+        },
+        {
+          "name": "Anonymous",
+          "comment": "le me create mine too."
+        }
       ]
+    },
+    {
+      "id": 4,
+      "draft": true,
+      "author": "Seiji Villafranca",
+      "title": "Observables",
+      "category": "Angular",
+      "body": "Lorem ipsum dolor sit amet, cibo errem argumentum est ad, cu elit nostro malorum mea.",
+      "comments": [
+        {
+          "name": "Prog rammer",
+          "comment": "Hey another post!!!"
+        },
+        {
+          "name": "Anonymous",
+          "comment": "le me create mine too."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "AngularJs",
+      "draft": true,
+      "author": "John Doe",
+      "category": "Programming",
+      "body": "My first programming blog"
+    },
+    {
+      "id": 6,
+      "title": "Java",
+      "draft": "",
+      "author": "Seiji Villafranca",
+      "category": "Programming",
+      "body": "Another Java Programming"
     }
   ]
 }

@@ -1,0 +1,24 @@
+<form class="form" [formGroup]="form" (ngSubmit)="createPost()">
+    <mat-slide-toggle formControlName="draft">Draft</mat-slide-toggle>
+
+    <mat-form-field class="full-width" >
+       <input formControlName="title" matInput  placeholder="Title">
+    </mat-form-field>
+    
+    <mat-form-field class="full-width">
+        <input formControlName="category" matInput  placeholder="Category">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+        <input formControlName="author" matInput  placeholder="Author">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+        <textarea formControlName="body" matInput rows="4"  placeholder="Enter Body Here"></textarea>
+    </mat-form-field>
+    <div class="form-buttons">
+        <button class="form-button" type="button" (click)="clearForm()" mat-raised-button>Clear</button>
+        <button class="form-button" type="submit"  color="primary" mat-raised-button>Create Post</button>
+    </div>
+
+</form>
