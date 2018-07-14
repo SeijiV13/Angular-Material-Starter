@@ -10,7 +10,7 @@ import { Posts } from '../../shared/models/posts';
   styleUrls: ['./post-form.component.css']
 })
 export class PostFormComponent implements OnInit {
-
+  formType: string = "Create";
   form: FormGroup;
   constructor(private formBuilder: FormBuilder, 
               private postService: PostsService, 
@@ -19,8 +19,10 @@ export class PostFormComponent implements OnInit {
 
   ngOnInit() {
     this.initializeForm();
-    if(this.activatedRoute.snapshot.params.id)
-    this.setPost(this.activatedRoute.snapshot.params.id);
+    if(this.activatedRoute.snapshot.params.id){
+      this.setPost(this.activatedRoute.snapshot.params.id);
+      this.formType = "Edit";
+    }
   }
   
 
@@ -48,6 +50,14 @@ export class PostFormComponent implements OnInit {
     this.postService.createPost(post).subscribe(()=>{
       this.router.navigate(['']);
     });
+  }
+
+  editPost(){
+    let post = new Posts();
+    post = this.form.getRawValue();
+    this.postService.editPost(post, post.id).subscribe(()=>{
+      this.router.navigate(['']);
+    })
   }
 
   clearForm(){

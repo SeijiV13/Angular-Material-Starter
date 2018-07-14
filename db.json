@@ -2,11 +2,11 @@
   "posts": [
     {
       "id": 1,
-      "draft": false,
-      "author": "Seiji Villafranca",
       "title": "Angular 6 Basics",
+      "draft": false,
+      "author": "Ralph Villafranca",
       "category": "Angular",
-      "body": "Lorem ipsum dolor sit amet, cibo errem argumentum est ad, cu elit n",
+      "body": "Lorem ipsum dolor sit amet, cibo errem argumentum est ad, cu elit n"
     },
     {
       "id": 2,
@@ -59,6 +59,14 @@
       "author": "Seiji Villafranca",
       "category": "Programming",
       "body": "Another Java Programming"
+    },
+    {
+      "id": 7,
+      "title": "Java Programming",
+      "draft": "",
+      "author": "Seiji Villafranca",
+      "category": "Programming",
+      "body": "This is a sample programming language post for devcon "
     }
   ]
 }
